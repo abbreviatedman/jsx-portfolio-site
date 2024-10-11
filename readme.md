@@ -17,10 +17,11 @@ This project will help you get accustomed to using JSX for structuring a simple 
     - `express-react-views` as your rendering engine
         
 2. **Page Structure:**
-  - **Home Page:** A welcoming page with a brief introduction.
-  - **About Page:** Information about the individual.
-  - **Projects Page:** A list of projects you've worked on.
-  - **Contact Page:** Contact information and social media links.
+  - Each page should have its own JSX component (for example, `projects.jsx`). You need each of the following:
+    - **Home Page:** A welcoming page with a brief introduction.
+    - **About Page:** Information about the individual.
+    - **Projects Page:** A list of projects you've worked on.
+    - **Contact Page:** Contact information and social media links.
 
 3. **Navbar Component:**
   - Each page should include a nested `Navbar` component.
